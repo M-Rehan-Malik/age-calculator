@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Poppins';
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    margin-top: 10%;
+    margin-bottom: 50%;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom-right-radius: 90px;
+    padding: 20px;
+}
+input {
+    font-weight: 700;
+    height: 50px;
+    width:100px;
+    margin-right: 20px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: hsl(0, 0%, 86%) solid 1px;
+    text-align: center;
+    font-size: 18px;
+}
+.input-fields {
+    color: hsl(0, 1%, 44%);
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px 25px 20px;
+}
+button {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: none;
+    background-color: hsl(259, 100%, 65%);
+    color: white;
+    margin-left: 42%;
+    margin-top: 20px;
+}
+.output {
+    margin-top: 50px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.days, .months, .years {
+    display: flex;
+    gap: 15px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.number {
+    color: hsl(259, 100%, 65%);
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+    background-color: hsl(259, 87%, 56%);
+}
+.error {
+    color: hsl(0, 100%, 67%);
+}
+.error input {
+    outline-color: hsl(0, 100%, 67%);
+}
+.o{
+    margin-top: 10px;
+    font-size: 0.6rem;
+}
+.em {
+    visibility: hidden;
+}
+
+

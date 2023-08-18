@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <div class="main">
+    <div class="input-fields">
+      <div class="day">
+        <p id="day p">D A Y</p>
+        <input id="day-input" type="text" placeholder="DD">
+        <p class="em o">This field is required</p>
+      </div>
+      <div class="month">
+        <p id="month p">M O N T H</p>
+        <input id="month-input" type="text" placeholder="MM">
+        <p class="em o">This field is required</p>
+      </div>
+      <div class="year">
+        <p id="year p">Y E A R</p>
+        <input id="year-input" type="text" placeholder="YYYY">
+        <p class="em o">This field is required</p>
+      </div>
+    </div>
+    <button>
+    <i class="fa fa-arrow-down"></i>
+    
+  </button>
+  <div class="output">
+    <div class="years">
+      <h1 class="number y" id="year-age">- -</h1>
+      <h1 id="years">years</h1>
+    </div>
+    <div class="months">
+      <h1 class="number m" id="month-age">- -</h1>
+      <h1 id="months"> months</h1>
+    </div>
+    <div class="days">
+      <h1 class="number d" id="day-age">- -</h1>
+      <h1 id="days"> days</h1>
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
